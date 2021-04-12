@@ -1,0 +1,99 @@
+:root {
+	--green: #00FF00;
+	--white: #FFFFFF;
+	--black: #000000;
+	--bggreen: #336633;
+	--border_color: #ffcc33;
+}
+
+.back {
+	background: var(--bggreen);
+}
+.header {
+	background: var(--border_color);
+	width: 99%;
+	text-align: center;
+	color: var(--black);
+	display: inline-block;
+	height: 157px;
+	padding: 5px;
+	white-space: nowrap;
+}
+.left_logo {
+	background: var(--white);
+	display: inline-block;
+	float: left;
+	padding: 8px 0px;
+	width: 229px;
+}
+.header h1 {
+	display: inline-block;
+	padding: 20px 0px;
+	font-size: 25px;
+}
+.right_logo {
+	display: inline-block;
+	float: right;
+	height: 157px;
+	background: var(--white);
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: var(--black);	
+	width: 100%;
+}
+.navbar a {
+  	float: left; 
+  	display: block;
+  	color: white; 
+  	text-align: center; 
+  	padding: 5px; 
+  	text-decoration: none; 
+}
+.navbar a:hover {
+	background-color: var(--green);
+	color: var(--black);
+}
+.main {
+	background: var(--white);
+	width: 99%;
+}
+.hours {
+	text-align: center;
+	padding: 10px;
+}
+.hours h {
+	font-size: 20px;
+}
+.about_us {
+	text-align: center;
+	padding: 20px;
+}
+.about_us h {
+	font-size: 20px;
+	text-decoration: underline;
+}
+.contact_us {
+	padding: 10px;
+	text-align: center;
+}
+.contact_us h {
+	font-size: 20px;
+	text-decoration: underline;
+}
+.map {
+	height: 550px;
+	width: 700px;
+	border: 0;
+}
+.footer {
+	overflow: hidden;
+	padding: 5px;
+	text-align: center;
+	background: var(--white);
+	width: 99%;
+}
+.footer h2 {
+	font-size: 10px;
+}
