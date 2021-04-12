@@ -5,7 +5,9 @@
 	--bggreen: #336633;
 	--border_color: #ffcc33;
 }
-
+* {
+	box-sizing: border-box;
+}
 .back {
 	background: var(--bggreen);
 }
@@ -15,7 +17,7 @@
 	text-align: center;
 	color: var(--black);
 	display: block;
-	height: 157px;
+	height: 162px;
 	padding: 5px;
 }
 .left_logo {
@@ -38,13 +40,13 @@
 }
 
 .navbar {
+	display: block;
 	overflow: hidden;
 	background-color: var(--black);	
 	width: max-width;
 }
 .navbar a {
   	float: left; 
-  	display: block;
   	color: white; 
   	text-align: center; 
   	padding: 5px; 
@@ -54,9 +56,23 @@
 	background-color: var(--green);
 	color: var(--black);
 }
+.row {
+	display: flex;
+}
+.side {
+	flex: initial;
+	text-align: center;
+	background-color: var(--border_color);
+	padding: 5px;
+}
+.side h {
+	font-size: 20px;
+	text-decoration: underline;
+	padding: 10px;
+}
 .main {
+	flex: auto;
 	background: var(--white);
-	width: max-width;
 }
 .hours {
 	text-align: center;

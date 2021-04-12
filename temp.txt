@@ -1,0 +1,48 @@
+<div class="about_us">
+			<h>About Us</h>
+			<p>L & M Auto, Inc. and Papa's Healthy Food & Fuel, located in the Beautiful Berkshires of Western Massachusetts. Conveniently located on Rt. 23, in East Otis, MA we have been serving the needs of Berkshire County visitors and residents alike, for over 30 years. <br/><br/>
+			In the fall of 2004, owners Larry and Marci Southard opened Papa's Healthy Food & Fuel and in 2005 built a state-of-the art facility to house both businesses. Just west of the Blandford line, we offer locals, second home owners and travelers superior products and service.<br/><br/>
+			We pride ourselves on friendly service, freshness and quality ...such as our homemade bake goods, sandwiches "voted best in town" and our Deli featuring quality Boar's Head Meats & Cheeses, as well as Granville Cheeses.<br/><br/>
+			Our selection of organic foods is one of the best in the area. Papa's stocks a variety of organic groceries including coffee, pasta, soup, sugar, cereal, chocolate, health products, pet food and much more. We also have the largest selection of organic, medicinal and regular teas in the local area.<br/><br/>
+			In the market for a quality pre-owned Car, Truck, Van or SUV?  If so, do what Southern Berkshire, Central Berkshire and even Northern Berkshire residents have been doing for years.  Take a trip to L & M Auto, for a great selection of affordable used vehicles.  Not only does L & M Auto sell used cars and trucks, we also have a full time service department and towing.<br/>
+			</p>
+			<p align="center">
+				<a href="https://www.facebook.com/PapasHealthyFoodandFuel/">
+					<dev class="facebook_link">
+						<img src="facebook.jpg">
+					</dev>
+				</a>
+			</p>
+		</div>
+		
+		<div class="contact_us">
+			<h>
+			Contact Us
+			</h>
+			<p> 
+			L & M Auto, Inc.<br/>
+			2000 East Otis Road, Route 23<br/>
+			East Otis, MA 01029<br/><br/>
+	
+			Papa's Healthy Food & Fuel<br/>
+			2000 East Otis Road, Route 23<br/>
+			East Otis, MA 01029<br/><br/>
+
+			Contact Us Via Telephone:<br/>
+			L & M Auto, Inc.: (413) 269-6220<br/>
+			Papa's Healthy Food & Fuel: (413) 269-7779<br/>
+			FAX: (413) 269-7782<br/><br/>
+		
+			Contact Us Via Email:<br/>
+			L & M Auto, Inc.: <a href="mailto:lmhamlet@earthlink.net">Click Here</a> <br/>
+			Papa's Healthy Food & Fuel: <a href="mailto:rsullivan1052@att.net">Click Here</a><br/>
+			Web Site: <a href="mailto:webmaster@landmautoinc.com">Click Here (change this later)</a><br/>
+			</p>
+			<p align="center">
+				<a href="https://www.facebook.com/PapasHealthyFoodandFuel/">
+					<dev class="facebook_link">
+						<img src="facebook.jpg">
+					</dev>
+				</a>
+			</p>
+		</div>
