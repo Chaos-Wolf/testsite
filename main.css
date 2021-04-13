@@ -4,12 +4,21 @@
 	--black: #000000;
 	--bggreen: #336633;
 	--border_color: #ffcc33;
+	--red: #FF0000;
+	--off_brown: #E9DFA8;
+	--dark_grey: #A9A9A9;
+	--side_green: #7A9900;
 }
 * {
 	box-sizing: border-box;
 }
 .back {
 	background: var(--bggreen);
+	max-width: 1080px;
+	min-width: 670px;
+	margin: 0 auto;
+	float: none;
+	padding: 10px;
 }
 .header {
 	background: var(--white);
@@ -50,10 +59,11 @@
   	color: white; 
   	text-align: center; 
   	padding: 5px; 
+	font-size: 20px;
   	text-decoration: none; 
 }
 .navbar a:hover {
-	background-color: var(--green);
+	background-color: var(--dark_grey);
 	color: var(--black);
 }
 .row {
@@ -70,9 +80,49 @@
 	text-decoration: underline;
 	padding: 10px;
 }
+.about_side {
+	background: var(--side_green);
+	padding: 5px;
+	color: var(--white);
+}
+.about_side p {
+	font-size: 12;
+	
+}
 .main {
 	flex: auto;
 	background: var(--white);
+}
+.opening_gif {
+	float: left;
+	padding: 5px;
+}
+.opening_greeting {
+	
+}
+.opening_greeting p {
+	padding: 10px;	
+}
+.important {
+	display: block;
+	text-align: center;	
+	background: var(--red);
+	padding: 10px;
+}
+.important h1 {
+	text-align: center;
+	font-size: 20px;
+	padding: 5px;
+}
+.important_text {
+	background: var(--off_brown);
+	text-align: center;
+	padding: 10px;
+}
+.important_text h2 {
+	text-align: center;
+	font-size: 20px;
+	padding: 5px;
 }
 .hours {
 	text-align: center;
@@ -111,5 +161,5 @@
 	width: max-width;
 }
 .footer h2 {
-	font-size: 10px;
+	font-size: 12px;
 }
