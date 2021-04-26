@@ -15,7 +15,7 @@
 .back {
 	background: var(--white);
 	max-width: 1280px;
-	min-width: 670px;
+	min-width: 540px;
 	margin: 0 auto;
 	float: none;
 }
@@ -36,8 +36,9 @@
 	width: 229px;
 }
 .header h1 {
+	text-align: center;
 	display: inline-block;
-	padding: 20px 0px;
+	padding: 40px 0px;
 	font-size: 25px;
 }
 .right_logo {
@@ -48,17 +49,13 @@
 }
 
 .navbar {
-	border-top: 2px solid;
-	border-bottom: 2px solid;
-	border-left: 2px solid;
-	border-right: 2px solid;
 	overflow: hidden;
-	background-color: var(--white);	
+	background-color: var(--dark_grey);	
 	margin: 0 0 30px;
 }
 #bar {
 	height: 3.2em;
-	width: 780px;
+	width: 530px;
 	margin: 0 auto;
 	list-style: none;
 }
@@ -66,24 +63,22 @@
 	float: left;	
 }
 #bar a {
-	display: block;
+	display: inline-block;
 	text-align: center;
 	color: var(--black);
 	height: 3.2em;
-	width: 150px;
+	width: 100px;
 	line-height: 3.2em;
 	text-decoration: none;
 	margin-left: -2px;
 	font-weight: bold;
-	border-left: 2px solid var(--black);
-	border-right: 2px solid var(--black);
 }
 #bar a:hover {
-	background-color: var(--dark_grey);
+	background-color: var(--white);
 	color: var(--black);
 }
 #bar a.active{
-	background-color: var(--dark_grey);
+	background-color: var(--white);
 	color: var(--black);
 }
 
@@ -91,13 +86,18 @@
 	background: var(--white);
 }
 .slider {
-	width: 468px;
+	width: max-width;
 	margin: 0 auto 20px;
 	text-align: center;
 }
 .slider .contents {
 	position: relative;
-	height: 170px;
+	height: calc(100vw * .363);
+}
+@media (min-width: 1280px) {
+	.slider .contents {
+		height: 465px;	
+	}
 }
 .slider .contents img {
 	width: 100%;
@@ -175,6 +175,9 @@
 	font-weight: bold;
 	font-size: 20px;	
 }
+#poi a {
+	color: var(--black);	
+}
 #poi ul {
 	list-style: none;
 
@@ -192,27 +195,26 @@
 	font-weight: bold;
 	font-size: 20px;	
 }
-#addition ul {
-	
+#addition a {
+	color: var(--black);
 }
 #addition li {
 	text-align: left;
 	list-style: none;
 }
+#acc a {
+	color: var(--black);	
+}
 #acc li { 
 	text-align: left;
 	list-style: none;
-}
-#real li {
-	text-align: left;
-	list-style: none;	
 }
 .footer {
 	overflow: hidden;
 	padding: 5px;
 	text-align: center;
 	display: block;
-	background: var(--white);
+	background: var(--dark_grey);
 	width: max-width;
 }
 .footer h2 {
