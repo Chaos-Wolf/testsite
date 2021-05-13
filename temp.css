@@ -1,0 +1,51 @@
+:root {
+	--background_blue: #000080;
+	--header: #8b4513;
+	--white: #FFFFFF;
+}
+*{
+	box-sizing: border-box;	
+}
+.background {
+	background-color: var(--background_blue);
+	margin: 0 auto;
+	max-width: 1080px;
+	display: flex;
+	flex-direction: column;
+}
+.header {
+	background-color: var(--header);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 110px;
+}
+.town-name {
+	flex: 33%;
+	font-size: 24px;
+	background-color: var(--background_blue);
+	margin: 10px;
+	color: var(--white);
+	padding-top:30px;
+	padding-bottom: 30px;
+}
+.town-inc {
+	flex: 33%;
+	font-size: 18px;
+	color: var(--white);	
+}
+.town-photo {
+	flex: 33% right;
+	margin: 10px;
+}
+.main {
+	display: flex;
+	flex-direction: row;
+}
+.side {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--white);
+}
